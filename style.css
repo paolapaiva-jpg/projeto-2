@@ -1,6 +1,13 @@
 header{
+color: black;/*cor de texto*/
+background-color: rgb(135, 243, 243);/*cor de fundo*/
+}
+main{
+background-color: azure;
 color: black;
+}
 
-background-color: rgb(135, 243, 243);
-
+footer{
+    background-color: aliceblue;
+    color:antiquewhite
 }
