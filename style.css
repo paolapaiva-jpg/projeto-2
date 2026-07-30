@@ -4,6 +4,7 @@ background-color: rgb(135, 243, 243);/*cor de fundo*/
 text-align: center;
 max-width: 800px;
 margin: 0 auto;
+padding:16px;/*espaçamento interno*/
 }
 main{
 background-color: azure;
