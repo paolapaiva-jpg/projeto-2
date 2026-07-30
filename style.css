@@ -1,13 +1,16 @@
 header{
 color: black;/*cor de texto*/
 background-color: rgb(135, 243, 243);/*cor de fundo*/
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
 }
 main{
 background-color: azure;
 color: black;
-text-align: center;
-max-width: 800px;
-margin: 0 auto;
+text-align: center;/*alinhamento do texto*/
+max-width: 800px;/* largura máxima*/
+margin: 0 auto;/*espaçamento externo ao redor do elemento*/
 }
 
 footer{
