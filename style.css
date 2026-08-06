@@ -13,6 +13,8 @@ color: black;
 text-align: center;/*alinhamento do texto*/
 max-width: 800px;/* largura máxima*/
 margin: 0 auto;/*espaçamento externo ao redor do elemento*/
+
+display: flex;/*habilita o uso de flex box*/
 }
 
 footer{
