@@ -24,10 +24,12 @@ flex-direction: row;/*orienta os elementos na horizontal na orde 1,2,3*/
 
 footer{
     background-color: aliceblue;
-    color:rgb(12, 12, 12)
+    color:rgb(12, 12, 12);
+    max-width: 800px;/*largura máxima*/
+    
 }
 img{
-    
+
     width: 80px;
     height: 80px;
 
