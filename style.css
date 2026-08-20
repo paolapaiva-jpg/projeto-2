@@ -13,11 +13,7 @@ color: black;
 text-align: center;/*alinhamento do texto*/
 max-width: 800px;/* largura máxima*/
 margin: 0 auto;/*espaçamento externo ao redor do elemento*/
-
-padding: 16px;/*espaçamento interno*/
-
 padding: 16px;/*espaçamento interno\*/
-
 display: flex;/*habilita o uso de flex box*/
 flex-direction: row;/*orienta os elementos na horizontal na orde 1,2,3*/
 }
@@ -26,7 +22,8 @@ footer{
     background-color: aliceblue;
     color:rgb(12, 12, 12);
     max-width: 800px;/*largura máxima*/
-    
+    display: flex;/*habilita o uso de flex box*/
+    margin: 0 auto;/*espaçamento externo ao redor do elemento*/
 }
 img{
 
