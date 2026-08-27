@@ -22,8 +22,9 @@
 <p class="artigo-autor"> Por: Paola Freitas </p>
 <p> Boas vindas </p>
 
-<button>💙​<span>0</span><button>
-
+<button>👍​<span>0</span></button>
+button>👍​<span>0</span></button>
+</button>
 </div>
 
 
@@ -36,13 +37,17 @@
 </body>
 <script>
     const botao=document.querySelector("button");// crie uma variável chamada botão selecionando a tag button"
-    botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado
+    botoes.forEach(function(butao) {
+         botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado
 
     function botaoClicado(){//cria uma função
       console.log("fui clicado");// mostra se o botão foi clicado 
       let texto=document.querySelector("span");//cria uma variável chamada "texto" selecionando a tag span
       texto.textContent++;//muda o valor do texto adicionando de uma unidade
         }
+    })
+    
+        
 </script>
 
 </html>
